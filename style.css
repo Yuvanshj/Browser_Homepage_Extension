@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box; 
+
+    color: white;
+    text-shadow: 2px 2px 4px black;
+}    
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+html { 
+    background: url(images/bg.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+html{
+    display: none;
+}
+
+
+main{
+    height: 100vh;
+    font-family: Sour Gummy;
+    font: 100;
+
+}
+
+
+.container1{
+    height: 33%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    
+}
+
+
+.card{
+    display: flex;
+    flex-direction: column;
+
+    margin: 40px 0px 0px 25px;  
+}
+
+#crypto{
+
+
+    font-size: 1.75rem;
+
+    margin: 0px 10px 0px 35px;
+
+    text-shadow: 1px 1px 4px black;
+
+}
+
+#icon{
+    height: 25px;
+    margin-top: 0px;
+    margin-right: 30px;
+}
+
+#img{
+    height: 25px; 
+}
+
+#info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#price_div{
+    width: 193px;
+}
+
+#price{
+
+    font-size: 16px;
+    text-align: left;
+    margin: 10px 0px 20px 35px;
+}
+
+#weather{
+    margin-top: 25px;
+    margin-right: 60px;
+}
+
+div#weather {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-self: flex-start;
+}
+
+div#weather > img {
+    width: 70px;
+}
+
+p.weather-city {
+    width: 100%;
+    text-align: right;
+    margin: 0;
+    margin-top: -10px;
+}
+
+p.weather-temp {
+    margin: 0;
+    font-size: 1.7rem;
+    margin-left: -10px;
+}
+
+
+.container2{
+    height: 33%;
+    display: flex;
+    align-items: center;
+
+    justify-content: center;
+}
+
+
+#time{
+    font-size: 4rem;
+    text-shadow: 0px 0px 60px rgb(0, 0, 0);
+}
+
+
+
+
+.container3{
+    height: 33%;
+
+    display: flex;
+    align-items: flex-end;
+
+}
+#name{
+
+    font-size: 1.5rem;
+    margin: 0px 0px 20px 65px;
+}
+
+
+
+
